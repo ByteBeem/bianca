@@ -1133,69 +1133,55 @@ contact-text p {
 }
 
 }
-/* Education Section */
 .education-section {
   padding: 50px 0;
-  background-color: #081b29;
-  text-align: center;
+  background-color: #f8f9fa;
 }
 
-.education-section h2 {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 30px;
-  position: relative;
-  display: inline-block;
-}
-
-.education-section h2 span {
-  color: #00eeff;
-}
-
-.education-content {
+.education-container {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .education-item {
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
   padding: 20px;
-  margin: 20px;
-  text-align: left;
   border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-10px);
+}
+
+.education-item i {
+  font-size: 30px;
+  color: #00eeff;
+  margin-bottom: 10px;
 }
 
 .education-item h3 {
-  font-size: 1.5rem;
-  color: #333;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .education-item p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 15px;
-}
-
-.education-item .duration {
-  font-size: 0.9rem;
-  color: #00eeff;
-}
-
-.education-item i {
-  font-size: 2rem;
-  color: #00eeff;
+  font-size: 16px;
   margin-bottom: 10px;
+  color: #333;
 }
 
-@media screen and (max-width: 768px) {
-  .education-content {
-    flex-direction: column;
-    align-items: center;
-  }
+.duration {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
 }
+
 
