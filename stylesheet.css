@@ -1133,4 +1133,69 @@ contact-text p {
 }
 
 }
+/* Education Section */
+.education-section {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.education-section h2 span {
+  color: #00eeff;
+}
+
+.education-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.education-item {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.education-item .duration {
+  font-size: 0.9rem;
+  color: #00eeff;
+}
+
+.education-item i {
+  font-size: 2rem;
+  color: #00eeff;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .education-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
