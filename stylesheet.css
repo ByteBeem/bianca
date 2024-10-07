@@ -1133,55 +1133,63 @@ contact-text p {
 }
 
 }
-.education-section {
-  padding: 50px 0;
-  background-color: #f8f9fa;
+.education {
+  margin-top: 5rem;
+  padding: 90px;
+  color: aliceblue;
 }
 
-.education-container {
+.education .sub-title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #0ef;
+}
+
+.education .timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.education .timeline .event {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.education-item {
-  background-color: white;
+  background-color: #081b29;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  flex: 1;
-  min-width: 300px;
-  margin: 10px 0;
-  transition: transform 0.3s ease;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+  transition: transform 0.5s ease;
 }
 
-.education-item:hover {
+.education .timeline .event:hover {
   transform: translateY(-10px);
 }
 
-.education-item i {
+.education .timeline .event h3 {
   font-size: 30px;
-  color: #00eeff;
+  font-weight: 700;
+  color: #0ef;
   margin-bottom: 10px;
 }
 
-.education-item h3 {
-  font-size: 20px;
+.education .timeline .event p {
+  font-size: 18px;
+  color: aliceblue;
+  line-height: 1.5;
+}
+
+.education .timeline .event .year {
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 10px;
+  color: #fff;
+  background-color: #0ef;
+  padding: 10px 20px;
+  border-radius: 20px;
+  align-self: flex-start;
+  box-shadow: 1px 1px 10px #0ef, 1px 1px 20px #0ef;
 }
 
-.education-item p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.duration {
-  font-size: 14px;
-  font-weight: bold;
-  color: #666;
-}
 
 
